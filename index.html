@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argomenti di studio</title>
+</head>
+<body>
+    <h2>Seleziona gli argomenti di studio</h2>
+    <form action="argomenti.php" method="get">
+        Nome: <input type="text" name="nome" required><br><br>
+        Password: <input type="text" name="password" required><br><br>
+        Quali argomenti vorresti approfondire:<br>
+        <input type="checkbox" name="argomenti[]" value="Informazioni su HTML"> Informazioni su HTML<br>
+        <input type="checkbox" name="argomenti[]" value="Immagini">Immagini<br>
+        <input type="checkbox" name="argomenti[]" value="Collegamenti e URL">Collegamenti e URL<br>
+        <input type="checkbox" name="argomenti[]" value="Oggetti multimediali">Oggetti multimediali<br>
+        <input type="checkbox" name="argomenti[]" value="XHTML versione 1.0">XHTML versione 1.0<br>
+        <input type="submit" value="Invia">
+    </form>
+</body>
+</html>
